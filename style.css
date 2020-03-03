@@ -1,27 +1,3 @@
-@import "https://fonts.googleapis.com/css?family=Open+Sans&display=swap";
-
-body {
-background:#E5E5E5;
-display:flex;
-flex-direction:row;
-justify-content:center;
-align-content:center;
-align-items:center;
-}
-
-.container {
-display:flex;
-position:absolute;
-width:1440px;
-height:688px;
-left:10px;
-top:0;
-flex-direction:row;
-justify-content:center;
-align-content:center;
-align-items:center;
-background:url(/assets/image1.svg);
-}
 
 .main {
 display:flex;
@@ -227,45 +203,6 @@ letter-spacing:.01em;
 color:#000;
 }
 
-.emailtext {
-position:absolute;
-width:322px;
-height:50px;
-left:904px;
-top:415px;
-background:#FFF;
-border:1px solid #E4E4E4;
-box-sizing:border-box;
-box-shadow:0 2px 4px rgba(0,0,0,0.08);
-border-radius:2px;
-font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
-font-style:normal;
-font-weight:400;
-font-size:16px;
-line-height:22px;
-display:flex;
-align-items:center;
-letter-spacing:.01em;
-color:rgba(12,7,7,0.33);
-}
-
-.password {
-position:absolute;
-width:79px;
-height:19px;
-left:904px;
-top:505px;
-font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
-font-style:normal;
-font-weight:700;
-font-size:16px;
-line-height:19px;
-display:flex;
-align-items:center;
-letter-spacing:.01em;
-color:#000;
-}
-
 .passwordtext {
 position:absolute;
 width:322px;
@@ -342,6 +279,31 @@ letter-spacing:.01em;
 color:#EB5757;
 }
 
+@import "https://fonts.googleapis.com/css?family=Open+Sans&display=swap";
+
+body {
+background:#E5E5E5;
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-content:center;
+align-items:center;
+}
+
+.container {
+display:flex;
+position:absolute;
+width:1440px;
+height:688px;
+left:10px;
+top:0;
+flex-direction:row;
+justify-content:center;
+align-content:center;
+align-items:center;
+background:url(/assets/image1.svg);
+}
+
 .passworderror {
 position:absolute;
 width:290px;
@@ -369,3 +331,43 @@ color:#EB5757;
     font-style:normal;
     font-weight:400;
 }
+
+.mailtext {
+position:absolute;
+width:322px;
+height:50px;
+left:904px;
+top:415px;
+background:#FFF;
+border:1px solid #E4E4E4;
+box-sizing:border-box;
+box-shadow:0 2px 4px rgba(0,0,0,0.08);
+border-radius:2px;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:400;
+font-size:16px;
+line-height:22px;
+display:flex;
+align-items:center;
+letter-spacing:.01em;
+color:rgba(12,7,7,0.33);
+}
+
+.password {
+position:absolute;
+width:79px;
+height:19px;
+left:904px;
+top:505px;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:700;
+font-size:16px;
+line-height:19px;
+display:flex;
+align-items:center;
+letter-spacing:.01em;
+color:#000;
+}
+
